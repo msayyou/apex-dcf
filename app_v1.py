@@ -13,10 +13,7 @@ import numpy as np
 import pandas as pd
 import plotly.io as pio
 
-from apex_model import (
-    HotelOperatingInputs, MarketAssumptions, DebtStructure,
-    ESGTrajectory, APEX_DCF_Plus
-)
+from apex_model import (HotelOperatingInputs, MarketAssumptions, DebtStructure, ESGTrajectory, APEX_DCF_Plus)
 
 # ── Configuration de la page ──────────────────────────────────────
 st.set_page_config(
